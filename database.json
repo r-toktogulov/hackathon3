@@ -1,3 +1,244 @@
 {
-  "products": []
+  "products": [
+    {
+      "product category": "iphone",
+      "name": "iphone x",
+      "color": "white",
+      "memory": "128",
+      "direction": "Дисплей выполнен с применением матрицы типа Amoled. Диагональ дисплея составляет 5,8 дюйма, разрешение — 2436×1125 пикселей, плотность изображения — 458 точек на дюйм. Используются технологии Dolby Vision, HDR 10 и ранее опробованная на iPad Pro система оптимизации цвета True Tone.",
+      "image": "https://www.refurbished.store/cache/images/iphone-x-zilver-0_600x600_BGresize_16777215-tj.png",
+      "price": "400$",
+      "id": 1
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone x",
+      "color": "white",
+      "memory": "256",
+      "direction": "Дисплей выполнен с применением матрицы типа Amoled. Диагональ дисплея составляет 5,8 дюйма, разрешение — 2436×1125 пикселей, плотность изображения — 458 точек на дюйм. Используются технологии Dolby Vision, HDR 10 и ранее опробованная на iPad Pro система оптимизации цвета True Tone.",
+      "image": "https://www.refurbished.store/cache/images/iphone-x-zilver-0_600x600_BGresize_16777215-tj.png",
+      "price": "500$",
+      "id": 2
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone x",
+      "color": "black",
+      "memory": "128",
+      "direction": "Дисплей выполнен с применением матрицы типа Amoled. Диагональ дисплея составляет 5,8 дюйма, разрешение — 2436×1125 пикселей, плотность изображения — 458 точек на дюйм. Используются технологии Dolby Vision, HDR 10 и ранее опробованная на iPad Pro система оптимизации цвета True Tone.",
+      "image": "https://telefon.kg/image/cache/catalog/Products/Phones/Apple/Iphone%20X/black/1-500x500.jpg",
+      "price": "400$",
+      "id": 3
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone x",
+      "color": "black",
+      "memory": "256",
+      "direction": "Дисплей выполнен с применением матрицы типа Amoled. Диагональ дисплея составляет 5,8 дюйма, разрешение — 2436×1125 пикселей, плотность изображения — 458 точек на дюйм. Используются технологии Dolby Vision, HDR 10 и ранее опробованная на iPad Pro система оптимизации цвета True Tone.",
+      "image": "https://telefon.kg/image/cache/catalog/Products/Phones/Apple/Iphone%20X/black/1-500x500.jpg",
+      "price": "500$",
+      "id": 4
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone x",
+      "color": "gold",
+      "memory": "128",
+      "direction": "Дисплей выполнен с применением матрицы типа Amoled. Диагональ дисплея составляет 5,8 дюйма, разрешение — 2436×1125 пикселей, плотность изображения — 458 точек на дюйм. Используются технологии Dolby Vision, HDR 10 и ранее опробованная на iPad Pro система оптимизации цвета True Tone.",
+      "image": "https://univexim.com/2515-large_default/apple-iphone-xs-max-64gb-gold.jpg",
+      "price": "400$",
+      "id": 5
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone x",
+      "color": "gold",
+      "memory": "256",
+      "direction": "Дисплей выполнен с применением матрицы типа Amoled. Диагональ дисплея составляет 5,8 дюйма, разрешение — 2436×1125 пикселей, плотность изображения — 458 точек на дюйм. Используются технологии Dolby Vision, HDR 10 и ранее опробованная на iPad Pro система оптимизации цвета True Tone.",
+      "image": "https://univexim.com/2515-large_default/apple-iphone-xs-max-64gb-gold.jpg",
+      "price": "500$",
+      "id": 6
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 11",
+      "color": "white",
+      "memory": "128",
+      "direction": "iPhone 11 — смартфон корпорации Apple, использующий процессор Apple A13 Bionic который содержит 8,5 млрд транзисторов и операционную систему iOS 13 (на старте продаж), представленный 10 сентября 2019 года вместе с iPhone 11 Pro и iPhone 11 Pro Max. Является преемником iPhone XR.",
+      "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_2732_4_1.jpg",
+      "price": "500$",
+      "id": 8
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 11",
+      "color": "white",
+      "memory": "256",
+      "direction": "iPhone 11 — смартфон корпорации Apple, использующий процессор Apple A13 Bionic который содержит 8,5 млрд транзисторов и операционную систему iOS 13 (на старте продаж), представленный 10 сентября 2019 года вместе с iPhone 11 Pro и iPhone 11 Pro Max. Является преемником iPhone XR.",
+      "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_2732_4_1.jpg",
+      "price": "600$",
+      "id": 9
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 11",
+      "color": "black",
+      "memory": "128",
+      "direction": "iPhone 11 — смартфон корпорации Apple, использующий процессор Apple A13 Bionic который содержит 8,5 млрд транзисторов и операционную систему iOS 13 (на старте продаж), представленный 10 сентября 2019 года вместе с iPhone 11 Pro и iPhone 11 Pro Max. Является преемником iPhone XR.",
+      "image": "https://svetofor.info/images/detailed/181/smartfon-apple-iphone-11-128-gb-ram-4-gb-single-sim-chernyj.jpg",
+      "price": "500$",
+      "id": 10
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 11",
+      "color": "black",
+      "memory": "256",
+      "direction": "iPhone 11 — смартфон корпорации Apple, использующий процессор Apple A13 Bionic который содержит 8,5 млрд транзисторов и операционную систему iOS 13 (на старте продаж), представленный 10 сентября 2019 года вместе с iPhone 11 Pro и iPhone 11 Pro Max. Является преемником iPhone XR.",
+      "image": "https://svetofor.info/images/detailed/181/smartfon-apple-iphone-11-128-gb-ram-4-gb-single-sim-chernyj.jpg",
+      "price": "600$",
+      "id": 11
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 11",
+      "color": "yellow",
+      "memory": "128",
+      "direction": "iPhone 11 — смартфон корпорации Apple, использующий процессор Apple A13 Bionic который содержит 8,5 млрд транзисторов и операционную систему iOS 13 (на старте продаж), представленный 10 сентября 2019 года вместе с iPhone 11 Pro и iPhone 11 Pro Max. Является преемником iPhone XR.",
+      "image": "https://svetofor.info/images/detailed/181/smartfon-apple-iphone-11-128-gb-ram-4-gb-single-sim-zheltyj.jpg",
+      "price": "500$",
+      "id": 12
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 11",
+      "color": "yellow",
+      "memory": "256",
+      "direction": "iPhone 11 — смартфон корпорации Apple, использующий процессор Apple A13 Bionic который содержит 8,5 млрд транзисторов и операционную систему iOS 13 (на старте продаж), представленный 10 сентября 2019 года вместе с iPhone 11 Pro и iPhone 11 Pro Max. Является преемником iPhone XR.",
+      "image": "https://svetofor.info/images/detailed/181/smartfon-apple-iphone-11-128-gb-ram-4-gb-single-sim-zheltyj.jpg",
+      "price": "600$",
+      "id": 13
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 12",
+      "color": "white",
+      "memory": "128",
+      "direction": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
+      "image": "https://asiastore.kg/image/cache/catalog/iphone/iphone12/201106080012768545-670x540.jpg",
+      "price": "600$",
+      "id": 14
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 12",
+      "color": "white",
+      "memory": "256",
+      "direction": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
+      "image": "https://asiastore.kg/image/cache/catalog/iphone/iphone12/201106080012768545-670x540.jpg",
+      "price": "700$",
+      "id": 15
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 12",
+      "color": "black",
+      "memory": "128",
+      "direction": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
+      "image": "https://cdn.svyaznoy.ru/upload/iblock/8af/ruru_iphone12_q121_black_pdp-image-1b.jpg/resize/483x483/hq/",
+      "price": "600$",
+      "id": 16
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 12",
+      "color": "black",
+      "memory": "256",
+      "direction": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
+      "image": "https://cdn.svyaznoy.ru/upload/iblock/8af/ruru_iphone12_q121_black_pdp-image-1b.jpg/resize/483x483/hq/",
+      "price": "700$",
+      "id": 17
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 12",
+      "color": "blue",
+      "memory": "128",
+      "direction": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
+      "image": "https://svetofor.info/images/detailed/208/smartfon-apple-iphone-12-64-gb-ram-4-gb-blue.jpg",
+      "price": "600$",
+      "id": 18
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 12",
+      "color": "blue",
+      "memory": "256",
+      "direction": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
+      "image": "https://svetofor.info/images/detailed/208/smartfon-apple-iphone-12-64-gb-ram-4-gb-blue.jpg",
+      "price": "700$",
+      "id": 19
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 13",
+      "color": "white",
+      "memory": "128",
+      "direction": "Характеристики экрана iPhone 13 на высоте для 2021 года. Это OLED-панель диагональю 6,1″, с разрешением 2532×1170 пикселей и плотностью точек 460 ppi. Спереди у iPhone 13 стоит прочное стекло Ceramic Shield. У экрана отличные углы обзора и отсутствуют какие-либо искажения при наклоне до 180 градусов.",
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/IPhone%2013/mini/1-500x500.jpg",
+      "price": "700$",
+      "id": 20
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 13",
+      "color": "white",
+      "memory": "256",
+      "direction": "Характеристики экрана iPhone 13 на высоте для 2021 года. Это OLED-панель диагональю 6,1″, с разрешением 2532×1170 пикселей и плотностью точек 460 ppi. Спереди у iPhone 13 стоит прочное стекло Ceramic Shield. У экрана отличные углы обзора и отсутствуют какие-либо искажения при наклоне до 180 градусов.",
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/IPhone%2013/mini/1-500x500.jpg",
+      "price": "800$",
+      "id": 21
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 13",
+      "color": "blue",
+      "memory": "128",
+      "direction": "Характеристики экрана iPhone 13 на высоте для 2021 года. Это OLED-панель диагональю 6,1″, с разрешением 2532×1170 пикселей и плотностью точек 460 ppi. Спереди у iPhone 13 стоит прочное стекло Ceramic Shield. У экрана отличные углы обзора и отсутствуют какие-либо искажения при наклоне до 180 градусов.",
+      "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_3142_7_6.png",
+      "price": "700$",
+      "id": 21
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 13",
+      "color": "blue",
+      "memory": "256",
+      "direction": "Характеристики экрана iPhone 13 на высоте для 2021 года. Это OLED-панель диагональю 6,1″, с разрешением 2532×1170 пикселей и плотностью точек 460 ppi. Спереди у iPhone 13 стоит прочное стекло Ceramic Shield. У экрана отличные углы обзора и отсутствуют какие-либо искажения при наклоне до 180 градусов.",
+      "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_3142_7_6.png",
+      "price": "800$",
+      "id": 22
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 13",
+      "color": "red",
+      "memory": "128",
+      "direction": "Характеристики экрана iPhone 13 на высоте для 2021 года. Это OLED-панель диагональю 6,1″, с разрешением 2532×1170 пикселей и плотностью точек 460 ppi. Спереди у iPhone 13 стоит прочное стекло Ceramic Shield. У экрана отличные углы обзора и отсутствуют какие-либо искажения при наклоне до 180 градусов.",
+      "image": "https://jabko.ua/image/catalog/products/2021/09/142307/2021-09-14%2021.47.44.jpg",
+      "price": "700$",
+      "id": 23
+    },
+    {
+      "product category": "iphone",
+      "name": "iphone 13",
+      "color": "red",
+      "memory": "256",
+      "direction": "Характеристики экрана iPhone 13 на высоте для 2021 года. Это OLED-панель диагональю 6,1″, с разрешением 2532×1170 пикселей и плотностью точек 460 ppi. Спереди у iPhone 13 стоит прочное стекло Ceramic Shield. У экрана отличные углы обзора и отсутствуют какие-либо искажения при наклоне до 180 градусов.",
+      "image": "https://jabko.ua/image/catalog/products/2021/09/142307/2021-09-14%2021.47.44.jpg",
+      "price": "800$",
+      "id": 23
+    }
+  ]
 }

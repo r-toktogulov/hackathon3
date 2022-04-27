@@ -1,28 +1,40 @@
+<<<<<<< HEAD
 import axios from "axios";
 import React, { useEffect, useReducer, useState } from "react";
 import { API } from "../helpers/const";
+=======
+import React, { useEffect, useReducer } from "react";
+>>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
 import {
   GoogleAuthProvider,
   onAuthStateChanged,
   signInWithPopup,
   signOut,
 } from "firebase/auth";
+<<<<<<< HEAD
 import { auth } from "../Firebase";
+=======
+import { auth } from "../firebase";
+>>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
 
 export const clientContext = React.createContext();
 
 const initState = {
   products: [],
+<<<<<<< HEAD
   cartCount: JSON.parse(localStorage.getItem("cart"))
     ? JSON.parse(localStorage.getItem("cart")).products.length
     : 0,
   myCart: null,
   productDetails: null,
+=======
+>>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
   user: null,
 };
 
 const reducer = (state = initState, action) => {
   switch (action.type) {
+<<<<<<< HEAD
     case "GET_PRODUCTS":
       return { ...state, products: action.payload };
     case "ADD_PRODUCT_TO_CART":
@@ -33,6 +45,8 @@ const reducer = (state = initState, action) => {
       return { ...state, myCart: action.payload };
     case "GET_PRODUCT_DETAILS":
       return { ...state, productDetails: action.payload };
+=======
+>>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
     case "CHECK_USER":
       return { ...state, user: action.payload };
     default:
@@ -42,6 +56,7 @@ const reducer = (state = initState, action) => {
 
 const ClientContext = (props) => {
   const [state, dispatch] = useReducer(reducer, initState);
+<<<<<<< HEAD
   const getProducts = async () => {
     const response = await axios(`${API}${window.location.search}`);
     const action = {
@@ -167,6 +182,8 @@ const ClientContext = (props) => {
     dispatch(action);
   };
 
+=======
+>>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
   const authWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider);
@@ -182,6 +199,7 @@ const ClientContext = (props) => {
     });
   }, []);
 
+<<<<<<< HEAD
   const logOut = () => {
     signOut(auth);
   };
@@ -216,6 +234,17 @@ const ClientContext = (props) => {
         cartCount: state.cartCount,
         myCart: state.myCart,
         productDetails: state.productDetails,
+=======
+  const logout = () => {
+    signOut(auth);
+  };
+
+  return (
+    <clientContext.Provider
+      value={{
+        authWithGoogle: authWithGoogle,
+        logout: logout,
+>>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
         user: state.user,
       }}
     >

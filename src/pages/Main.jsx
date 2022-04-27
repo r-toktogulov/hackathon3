@@ -90,12 +90,12 @@ const Main = () => {
 
         <MyPagination />
       </Container>
-      <span className="p1">HERO10</span>
-      <span className="p2">Быстрее. Плавнее. Легче.</span>
       <div className="animation">
+        <span className="p1">HERO10</span>
+        <span className="p2">Быстрее. Плавнее. Легче.</span>
+
         <div data-aos="fade-down-right">
           <img
-            className="img1"
             width={600}
             src="https://www.ixbt.com/img/n1/news/2021/7/0/GoPro-Hero-10-Black-camera-13.png"
             alt="1"
@@ -105,28 +105,11 @@ const Main = () => {
         <span className="p2">Всегда рядом</span>
         <div data-aos="fade-down-left">
           <img
-            className="img2"
             width={800}
-            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-s7-og-202203?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1646504979352"
+            src="https://www.kivano.kg/images/product/61869/154288163215035_full.jpg"
             alt="2"
           />
         </div>
-        {/* <div data-aos="fade-down-right">
-          <img
-            className="img3"
-            width={600}
-            src="https://www.kivano.kg/images/product/61869/154288163215035_full.jpg"
-            alt="3"
-          />
-        </div>
-        <div data-aos="fade-down-left">
-          <img
-            className="img4"
-            width={600}
-            src="https://www.apple.com/v/airpods-pro/e/images/meta/og__ch3csr9zmviq_overview.png"
-            alt="4"
-          />
-        </div> */}
       </div>
     </div>
   );

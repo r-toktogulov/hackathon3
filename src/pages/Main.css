@@ -24,19 +24,19 @@
   margin-left: 100px;
 }
 
-/* .animation img {
+.animation {
   display: flex;
   justify-content: center;
-} */
+  align-items: center;
+  flex-direction: column;
+}
 
 /* .img1 {
-  margin-left: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .img2 {
-  margin-left: 300px;
-}
-
-.img4 {
-  margin-left: 300px;
+  display: flex;
+  justify-content: center;
 } */

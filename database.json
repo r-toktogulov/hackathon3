@@ -10,6 +10,18 @@
       "price": "400$",
       "id": 1
     },
+
+    {
+      "productCategory": "MacBook",
+      "name": "MacBook Pro 16",
+      "color": "white",
+      "memory": "256 GB",
+      "description": "Супербыстрые M1 Pro и M1 Max — первые чипы Apple, разработанные специально для профессионалов. Они дают феноменальную производительность и обеспечивают удивительно долгое время работы без подзарядки. Прибавьте к этому потрясающий дисплей Liquid Retina XDR, превосходную камеру и звук, а также больше портов для профессиональной работы. С этим ноутбуком всё становится возможным.",
+      "image": "https://www.istore.kg/media/products/Pro-16-M1-SP-US-1_RGWcLBN.webp",
+      "price": "4000$",
+      "id": 31
+    },
+
     {
       "productCategory": "iphone",
       "name": "iphone x",
@@ -229,6 +241,16 @@
       "image": "https://jabko.ua/image/catalog/products/2021/09/142307/2021-09-14%2021.47.44.jpg",
       "price": "700$",
       "id": 23
+    },
+    {
+      "productCategory": "MacBook",
+      "name": "MacBook Air 13",
+      "color": "white",
+      "memory": "512 GB",
+      "description": "С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9 раз. Новый MacBook Air работает без подзарядки дольше, чем предыдущие модели. И совсем не шумит, потому что у него нет вентилятора. Мощность ещё никогда не была такой компактной.",
+      "image": "https://www.istore.kg/media/products/Pro-16-M1-SP-US-1_RGWcLBN.webp",
+      "price": "4000$",
+      "id": 32
     },
     {
       "productCategory": "iphone",

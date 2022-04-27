@@ -1,0 +1,42 @@
+.carousel {
+  margin: 50px 0px;
+}
+
+.p1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.p2 {
+  color: rgb(115, 112, 112);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.fade-down-right {
+  margin-left: 100px;
+}
+
+/* .animation img {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .img1 {
+  margin-left: 100px;
+}
+
+.img2 {
+  margin-left: 300px;
+}
+
+.img4 {
+  margin-left: 300px;
+} */

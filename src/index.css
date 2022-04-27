@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -7,9 +13,124 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.add-edit-page form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 25px;
+  margin-top: 50px;
+}
+
+.product-card-image {
+  object-fit: contain !important;
+}
+
+.product-card-description {
+  height: 40px;
+  overflow: hidden;
+}
+
+.product-card-collapse {
+  position: relative;
+  top: 0;
+}
+
+.filters-block {
+  display: grid;
+  grid-template-columns: 250px 200px 200px 150px;
+  column-gap: 25px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.filters-block button {
+  margin-top: 15px;
+}
+
+.my-pagination {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.product-details {
+  display: flex;
+  margin-top: 30px;
+}
+
+.product-details img {
+  width: 40%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.product-details > div {
+  width: 60%;
+}
+
+.product-details li {
+  margin: 20px 5px;
+  font-size: 20px;
+}
+
+.product-details li strong {
+  width: 120px;
+  display: inline-block;
+}
+
+.product-details h2 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.product-details-feedback h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.product-details-feedback form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.product-details-feedback > div {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feedback {
+  background-color: rgb(229, 229, 229);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.feedback h5 {
+  font-size: 20px;
+  margin: 0;
+=======
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+>>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
 }
 
 .navbar a {

@@ -2,8 +2,15 @@ import React from "react";
 import AdminContext from "./context/AdminContext";
 import ClientContext from "./context/ClientContext";
 import Navigation from "./Navigation";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+    AOS.refresh();
+  }, []);
   return (
     <ClientContext>
       <AdminContext>
@@ -11,6 +18,6 @@ function App() {
       </AdminContext>
     </ClientContext>
   );
-}
+};
 
 export default App;

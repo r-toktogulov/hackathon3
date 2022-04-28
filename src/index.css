@@ -13,7 +13,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-<<<<<<< HEAD
 a {
   color: unset;
   text-decoration: none;
@@ -126,11 +125,6 @@ a {
 .feedback h5 {
   font-size: 20px;
   margin: 0;
-=======
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
->>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
 }
 
 .navbar a {
@@ -141,13 +135,14 @@ code {
   width: 100%;
   background-color: rgb(238, 237, 237);
   height: 100px;
+  display: flex;
 }
 
 .filters-block-category {
   margin: 0 auto;
   width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .filters-block-category img {
@@ -204,10 +199,6 @@ code {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
-}
-
-a {
-  text-decoration: none;
 }
 
 .container {

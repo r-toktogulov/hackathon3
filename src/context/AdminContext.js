@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import axios from "axios";
 import React, { useReducer } from "react";
 import { API } from "../helpers/const";
@@ -16,16 +15,7 @@ const reducer = (state = initState, action) => {
       return { ...state, products: action.payload };
     case "GET_PRODUCT_TO_EDIT":
       return { ...state, productToEdit: action.payload };
-=======
-import React, { useReducer } from "react";
-export const adminContext = React.createContext();
-const initState = {
-  products: [],
-};
 
-const reducer = (state = initState, action) => {
-  switch (action.type) {
->>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
     default:
       return state;
   }
@@ -34,7 +24,6 @@ const reducer = (state = initState, action) => {
 const AdminContext = (props) => {
   const [state, dispatch] = useReducer(reducer, initState);
 
-<<<<<<< HEAD
   const addProduct = async (newProduct) => {
     await axios.post(API, newProduct);
   };
@@ -80,10 +69,6 @@ const AdminContext = (props) => {
     >
       {props.children}
     </adminContext.Provider>
-=======
-  return (
-    <adminContext.Provider value={{}}>{props.children}</adminContext.Provider>
->>>>>>> bfe0492c3d3b6d9b11193cfe585125756a69168d
   );
 };
 

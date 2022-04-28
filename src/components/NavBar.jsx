@@ -7,9 +7,10 @@ import IconButton from "@mui/material/IconButton";
 
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
-import { Avatar, Button, Link } from "@mui/material";
+import { Avatar, Button } from "@mui/material";
 import { clientContext } from "../context/ClientContext";
 import { Logout } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const data = React.useContext(clientContext);
@@ -48,12 +49,12 @@ const NavBar = () => {
               Главная
             </Button>
           </Link>
-          <Link to="/admin-panel/add">
+          <Link to="/about">
             <Button sx={{ my: 2, color: "white", display: "block" }}>
               О нас
             </Button>
           </Link>
-          <Link to="/admin-panel">
+          <Link to="/">
             <Button sx={{ my: 2, color: "white", display: "block" }}>
               Продукция
             </Button>

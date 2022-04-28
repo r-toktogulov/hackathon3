@@ -1,11 +1,22 @@
 import { Container } from "@mui/material";
-import React from "react";
+import React, { useContext, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { clientContext } from "../context/ClientContext";
+import ProductCard from "./ProductCard";
 
-const FiltersBlock = () => {
+const FiltersBlock = ({ getProduct }) => {
+  // const data = useContext(clientContext);
+  // const { products } = data;
+
   return (
     <div className="filters-block">
       <div className="filters-block-category">
-        <div className="category">
+        <div
+          // onClick={products.map((item) => (
+          //   <ProductCard key={item.productCategory} item={item} />
+          // ))}
+          className="category"
+        >
           <img src="https://istore.kg/static/img/iphone.svg" alt="iPhones" />
           <span>iPhone</span>
         </div>

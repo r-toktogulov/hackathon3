@@ -4,18 +4,18 @@ import MyPagination from "../components/MyPagination";
 import ProductCard from "../components/ProductCard";
 import { clientContext } from "../context/ClientContext";
 
-const Phones = () => {
+const Watchs = () => {
   const data = useContext(clientContext);
-  const { phones, getPhones } = data;
+  const { watch, getWatchs } = data;
 
   useEffect(() => {
-    getPhones();
+    getWatchs();
   }, []);
 
   return (
     <Container>
       <div className="products-list">
-        {phones.map((item) => (
+        {watch.map((item) => (
           <ProductCard key={item.id} item={item} />
         ))}
       </div>
@@ -25,4 +25,4 @@ const Phones = () => {
   );
 };
 
-export default Phones;
+export default Watchs;

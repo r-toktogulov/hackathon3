@@ -137,6 +137,14 @@ a {
   height: 100px;
   display: flex;
 }
+.search-block {
+  margin: 0 auto;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .filters-block-category {
   margin: 0 auto;
@@ -199,6 +207,10 @@ a {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
+}
+.search-block-leftside-item {
+  display: flex;
+  flex-direction: column;
 }
 
 .container {

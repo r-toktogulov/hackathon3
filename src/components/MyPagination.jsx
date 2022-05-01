@@ -13,6 +13,7 @@ const MyPagination = () => {
         onChange={(_, page) => handlePagination(page)}
         count={totalPages}
         color="primary"
+        // size="small"
       />
     </div>
   );

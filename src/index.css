@@ -284,6 +284,11 @@ div .about-title-text {
 
 .payment {
   display: flex;
+}
+.credit-button {
+  margin-top: 10px;
+  float: right;
+}
 
 @media all and (max-width: 1260px) {
   .footer-block-rightside-item {

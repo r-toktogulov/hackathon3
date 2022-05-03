@@ -267,7 +267,6 @@ const ClientContext = (props) => {
         getImacs: getImacs,
         authWithGoogle: authWithGoogle,
         logOut: logOut,
-
         products: products,
         totalCount: totalCount,
         productsPerPage: productsPerPage,

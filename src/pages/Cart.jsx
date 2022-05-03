@@ -1,4 +1,5 @@
 import {
+  Button,
   Container,
   Paper,
   Table,
@@ -10,14 +11,13 @@ import {
   TableRow,
 } from "@mui/material";
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { clientContext } from "../context/ClientContext";
 const rows = [];
 
 const CartPage = () => {
   const data = React.useContext(clientContext);
   const { getProductsFromCart, myCart, changeCountProductInCart } = data;
-
-  console.log(myCart);
 
   useEffect(() => {
     getProductsFromCart();
@@ -88,6 +88,11 @@ const CartPage = () => {
             </TableFooter>
           </Table>
         </TableContainer>
+        <Link to="/checkout">
+          <Button className="credit-button" variant="outlined">
+            Оплатить
+          </Button>
+        </Link>
       </Container>
     </div>
   );

@@ -22,6 +22,7 @@ import Imacs from "./pages/Imacs";
 import Watchs from "./pages/Watchs";
 import PaymentPage from "./pages/PaymentPage";
 import CheckOutPage from "./pages/CheckOutPage";
+import CreditCardForm from "./components/CreditCardForm";
 const Navigation = () => {
   return (
     <BrowserRouter>
@@ -46,6 +47,7 @@ const Navigation = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/guarantee" element={<Guarantee />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/creditcard" element={<CreditCardForm />} />
       </Routes>
       <FooterBlock />
     </BrowserRouter>

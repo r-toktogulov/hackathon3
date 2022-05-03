@@ -7,7 +7,6 @@ import IconButton from "@mui/material/IconButton";
 
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
-
 import { Avatar, Badge, Button } from "@mui/material";
 import { clientContext } from "../context/ClientContext";
 import { Logout, ShoppingCart } from "@mui/icons-material";
@@ -15,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const data = React.useContext(clientContext);
-  const { authWithGoogle, user, logout, cartCount } = data;
+  const { authWithGoogle, user, logOut, cartCount } = data;
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
@@ -87,7 +86,7 @@ const NavBar = () => {
                 />
 
                 <Button>
-                  <Logout color="error" onClick={logout} />
+                  <Logout color="error" onClick={logOut} />
                 </Button>
               </div>
             ) : (

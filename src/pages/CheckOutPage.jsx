@@ -3,12 +3,13 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import { Button } from "@mui/material";
 import { clientContext } from "../context/ClientContext";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { Apartment } from "@mui/icons-material";
 
 const CheckOutPage = () => {
   const data = React.useContext(clientContext);
   const { addDelivery } = data;
+  const navigate = useNavigate();
   const [newDelivery, setNewDelivery] = React.useState({
     lastname: "",
     name: "",
@@ -19,14 +20,15 @@ const CheckOutPage = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
     for (let key in newDelivery) {
       if (!newDelivery[key]) {
         alert("Заполните поля");
         return;
       }
     }
+    navigate("/creditcard");
     addDelivery(newDelivery);
+
     setNewDelivery({
       lastname: "",
       name: "",

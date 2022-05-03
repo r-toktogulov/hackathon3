@@ -10,7 +10,6 @@
       "price": "400$",
       "id": 1
     },
-
     {
       "productCategory": "MacBook",
       "name": "MacBook Pro 16",
@@ -139,14 +138,19 @@
       "description": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
       "image": "https://asiastore.kg/image/cache/catalog/iphone/iphone12/201106080012768545-670x540.jpg",
       "price": "600$",
-      "id": 14
+      "id": 14,
+      "feedbacks": [
+        {
+          "title": "good phone",
+          "user": "islam"
+        }
+      ]
     },
     {
       "productCategory": "iphone",
       "name": "iphone 12",
       "color": "white",
       "memory": "256 GB",
-
       "description": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
       "image": "https://asiastore.kg/image/cache/catalog/iphone/iphone12/201106080012768545-670x540.jpg",
       "price": "700$",
@@ -287,7 +291,6 @@
       "name": "iPad Pro 12.9",
       "color": "black",
       "memory": "256 GB",
-
       "description": "12,9-дюймовый дисплей Liquid Retina XDR с функциями ProMotion, True Tone. 5G для сверхскоростной загрузки и высококачественного потокового вещания",
       "image": "https://www.istore.kg/media/products/iPad-Pro-12-9-WiFi-Space-Gray_jd4EtKA.webp",
       "price": "1130$",
@@ -371,7 +374,6 @@
       "description": "Ремешки Nike и эксклюзивные циферблаты, а также приложения Nike Run Club. На сегодняшний день, это самый большой дисплей Always-On Retina. Дисплей устойчив к царапинам, а также пыле-влагозащищенный. Датчик измерения уровня кислорода в крови",
       "image": "https://www.istore.kg/media/products/7-41-Nike-Midnight-GPS.webp",
       "price": "500$",
-
       "id": 51
     },
     {
@@ -403,6 +405,16 @@
       "image": "https://www.istore.kg/media/products/7-41-Midnight-GPS.webp",
       "price": "440$",
       "id": 54
+    }
+  ],
+  "users": [
+    {
+      "lastname": "Toktogulov",
+      "name": "Ruslan",
+      "city": "Bishkek",
+      "street": "Mira",
+      "apartment": "55",
+      "id": 1
     }
   ]
 }

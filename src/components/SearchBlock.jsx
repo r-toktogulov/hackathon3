@@ -6,10 +6,13 @@ import {
   Select,
   TextField,
 } from "@mui/material";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { clientContext } from "../context/ClientContext";
 
-const SearchBlock = ({ getProducts }) => {
+const SearchBlock = () => {
+  const data = useContext(clientContext);
+  const { getProducts } = data;
   const location = useLocation();
   const navigate = useNavigate();
   const filter = new URLSearchParams(location.search);

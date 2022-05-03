@@ -19,7 +19,6 @@ const Phones = () => {
           <ProductCard key={item.id} item={item} />
         ))}
       </div>
-
       <MyPagination />
     </Container>
   );

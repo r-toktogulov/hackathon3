@@ -18,7 +18,9 @@ import Macbooks from "./pages/Macbooks";
 import Ipads from "./pages/Ipads";
 import Imacs from "./pages/Imacs";
 import Watchs from "./pages/Watchs";
-
+import checkOutPage from "./pages/CheckOutPage";
+import PaymentPage from "./pages/PaymentPage";
+import CheckOutPage from "./pages/CheckOutPage";
 const Navigation = () => {
   return (
     <BrowserRouter>
@@ -37,7 +39,8 @@ const Navigation = () => {
         <Route path="/ipads" element={<Ipads />} />
         <Route path="/imacs" element={<Imacs />} />
         <Route path="/watchs" element={<Watchs />} />
-
+        <Route path="/checkout" element={<CheckOutPage />} />
+        <Route path="/payment" element={<PaymentPage />} />
         <Route path="/about" element={<AboutUs />} />
       </Routes>
       <FooterBlock />

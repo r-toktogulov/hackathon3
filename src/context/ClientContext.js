@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useReducer, useState } from "react";
-import { API } from "../helpers/const";
+import { API, newAPI } from "../helpers/const";
 import {
   GoogleAuthProvider,
   onAuthStateChanged,
@@ -245,19 +245,14 @@ const ClientContext = (props) => {
     signOut(auth);
   };
 
-  const addFeedback = async (newFeedback, product) => {
-    if (product.feedbacks) {
-      product.feedbacks.push(newFeedback);
-      await axios.patch(`${API}/${product.id}`, product);
-    } else {
-      product.feedbacks = [newFeedback];
-      await axios.patch(`${API}/${product.id}`, product);
-    }
+  const addDelivery = async (newFeedback) => {
+    await axios.post(newAPI, newFeedback);
   };
 
   return (
     <clientContext.Provider
       value={{
+        addDelivery: addDelivery,
         getProducts: getProducts,
         handlePagination: handlePagination,
         addProductToCart: addProductToCart,
@@ -273,7 +268,7 @@ const ClientContext = (props) => {
         getImacs: getImacs,
         authWithGoogle: authWithGoogle,
         logOut: logOut,
-        addFeedback: addFeedback,
+
         products: products,
         totalCount: totalCount,
         productsPerPage: productsPerPage,

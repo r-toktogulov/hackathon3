@@ -19,6 +19,11 @@ const initState = {
   myCart: null,
   productDetails: null,
   user: null,
+  phones: [],
+  macbooks: [],
+  ipads: [],
+  imacs: [],
+  watch: [],
 };
 
 const reducer = (state = initState, action) => {
@@ -35,6 +40,16 @@ const reducer = (state = initState, action) => {
       return { ...state, productDetails: action.payload };
     case "CHECK_USER":
       return { ...state, user: action.payload };
+    case "GET_PHONES":
+      return { ...state, phones: action.payload };
+    case "GET_MACBOOKS":
+      return { ...state, macbooks: action.payload };
+    case "GET_IPADS":
+      return { ...state, ipads: action.payload };
+    case "GET_IMACS":
+      return { ...state, imacs: action.payload };
+    case "GET_WATCHS":
+      return { ...state, watch: action.payload };
     default:
       return state;
   }
@@ -46,6 +61,49 @@ const ClientContext = (props) => {
     const response = await axios(`${API}${window.location.search}`);
     const action = {
       type: "GET_PRODUCTS",
+      payload: response.data,
+    };
+    dispatch(action);
+  };
+
+  const getPhones = async () => {
+    const response = await axios(`${API}?productCategory=iphone`);
+    const action = {
+      type: "GET_PHONES",
+      payload: response.data,
+    };
+    dispatch(action);
+  };
+  const getMacbooks = async () => {
+    const response = await axios(`${API}?productCategory=MacBook`);
+    const action = {
+      type: "GET_MACBOOKS",
+      payload: response.data,
+    };
+    dispatch(action);
+  };
+  const getIpads = async () => {
+    const response = await axios(`${API}?productCategory=iPad`);
+    const action = {
+      type: "GET_IPADS",
+      payload: response.data,
+    };
+    dispatch(action);
+  };
+
+  const getImacs = async () => {
+    const response = await axios(`${API}?productCategory=iMac`);
+    const action = {
+      type: "GET_IMACS",
+      payload: response.data,
+    };
+    dispatch(action);
+  };
+
+  const getWatchs = async () => {
+    const response = await axios(`${API}?productCategory=AppleWatch`);
+    const action = {
+      type: "GET_WATCHS",
       payload: response.data,
     };
     dispatch(action);
@@ -207,6 +265,11 @@ const ClientContext = (props) => {
         getProductsFromCart: getProductsFromCart,
         changeCountProductInCart: changeCountProductInCart,
         getProductDetails: getProductDetails,
+        getPhones: getPhones,
+        getMacbooks: getMacbooks,
+        getIpads: getIpads,
+        getWatchs: getWatchs,
+        getImacs: getImacs,
         authWithGoogle: authWithGoogle,
         logOut: logOut,
         addFeedback: addFeedback,
@@ -217,6 +280,11 @@ const ClientContext = (props) => {
         myCart: state.myCart,
         productDetails: state.productDetails,
         user: state.user,
+        phones: state.phones,
+        macbooks: state.macbooks,
+        ipads: state.ipads,
+        watch: state.watch,
+        imacs: state.imacs,
       }}
     >
       {props.children}

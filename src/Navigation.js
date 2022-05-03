@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Add from "./pages/Add";
 import Admin from "./pages/Admin";
@@ -13,11 +14,19 @@ import AboutUs from "./pages/AboutUs";
 import ProductPage from "./pages/ProductPage";
 import Guarantee from "./pages/Guarantee";
 import Contacts from "./pages/Contacts";
+import Phones from "./pages/Phones";
+import SearchBlock from "./components/SearchBlock";
+import Macbooks from "./pages/Macbooks";
+import Ipads from "./pages/Ipads";
+import Imacs from "./pages/Imacs";
+import Watchs from "./pages/Watchs";
+
 
 const Navigation = () => {
   return (
     <BrowserRouter>
       <NavBar />
+      <SearchBlock />
       <FiltersBlock />
       <Routes>
         <Route path="/admin-panel" element={<Admin />} />
@@ -27,6 +36,11 @@ const Navigation = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/details/:id" element={<ProductDetails />} />
         <Route path="/product" element={<ProductPage />} />
+        <Route path="/phones" element={<Phones />} />
+        <Route path="/macbooks" element={<Macbooks />} />
+        <Route path="/ipads" element={<Ipads />} />
+        <Route path="/imacs" element={<Imacs />} />
+        <Route path="/watchs" element={<Watchs />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/guarantee" element={<Guarantee />} />
         <Route path="/contacts" element={<Contacts />} />

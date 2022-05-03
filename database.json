@@ -151,6 +151,7 @@
       "name": "iphone 12",
       "color": "white",
       "memory": "256 GB",
+
       "description": "iPhone 12 оснащён OLED дисплеем диагональю 6,1 дюйма, произведённым по технологии Super Retina XDR, c разрешением экрана 2532×1170 пикселей и плотностью 460 PPI (пикселей на дюйм). Пиковая яркость 1200 нит. Экран покрыт керамическим покрытием Ceramic Shield, произведённым совместно с компанией Corning.",
       "image": "https://asiastore.kg/image/cache/catalog/iphone/iphone12/201106080012768545-670x540.jpg",
       "price": "700",
@@ -291,6 +292,7 @@
       "name": "iPad Pro 12.9",
       "color": "black",
       "memory": "256 GB",
+
       "description": "12,9-дюймовый дисплей Liquid Retina XDR с функциями ProMotion, True Tone. 5G для сверхскоростной загрузки и высококачественного потокового вещания",
       "image": "https://www.istore.kg/media/products/iPad-Pro-12-9-WiFi-Space-Gray_jd4EtKA.webp",
       "price": "1130",
@@ -303,6 +305,7 @@
       "memory": "128 GB",
       "description": "12,9-дюймовый дисплей Liquid Retina XDR с функциями ProMotion, True Tone. 5G для сверхскоростной загрузки и высококачественного потокового вещания",
       "image": "https://www.istore.kg/media/products/iPad-9-WiFi-Silver.webp",
+
       "price": "1130",
       "id": 44
     },
@@ -314,7 +317,7 @@
       "description": "12,9-дюймовый дисплей Liquid Retina XDR с функциями ProMotion, True Tone. 5G для сверхскоростной загрузки и высококачественного потокового вещания",
       "image": "https://www.istore.kg/media/products/iPad-9-WiFi-Space-Gray.webp",
       "price": "1130",
-      "id": 45
+     "id": 45
     },
     {
       "productCategory": "iMac",

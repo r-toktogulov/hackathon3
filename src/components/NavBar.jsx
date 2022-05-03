@@ -7,6 +7,7 @@ import IconButton from "@mui/material/IconButton";
 
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
+
 import { Avatar, Badge, Button } from "@mui/material";
 import { clientContext } from "../context/ClientContext";
 import { Logout, ShoppingCart } from "@mui/icons-material";
@@ -54,7 +55,7 @@ const NavBar = () => {
               О нас
             </Button>
           </Link>
-          <Link to="/admin-panel">
+          <Link to="/">
             <Button sx={{ my: 2, color: "white", display: "block" }}>
               Продукция
             </Button>

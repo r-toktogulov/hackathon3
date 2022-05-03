@@ -31,12 +31,37 @@
   flex-direction: column;
 }
 
-/* .img1 {
-  display: flex;
-  justify-content: center;
+@media all and (max-width: 750px) {
+  .p1 {
+    font-size: 30px;
+  }
+  .animation img {
+    width: 300px;
+  }
 }
 
-.img2 {
-  display: flex;
-  justify-content: center;
-} */
+@media all and (max-width: 750px) {
+  .p1 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .p1 {
+    font-size: 20px;
+  }
+  .animation img {
+    width: 200px;
+  }
+}
+@media all and (max-width: 380px) {
+  .p1 {
+    font-size: 16px;
+  }
+  .p2 {
+    font-size: 12px;
+  }
+  .animation img {
+    width: 200px;
+  }
+}

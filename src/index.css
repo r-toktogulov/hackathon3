@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -67,6 +67,7 @@ a {
 .product-details {
   display: flex;
   margin-top: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
 .product-details img {
@@ -129,12 +130,15 @@ a {
 
 .navbar a {
   margin-left: 50px;
+  text-decoration: none;
 }
 
 .filters-block {
+  display: flex;
   width: 100%;
   background-color: rgb(238, 237, 237);
   height: 100px;
+  margin-bottom: 50px;
   display: flex;
 }
 .search-block {
@@ -185,6 +189,7 @@ a {
   background-color: rgb(238, 237, 237);
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .footer-block-rightside {
@@ -200,6 +205,7 @@ a {
 
 .bold {
   font-weight: 700;
+  display: flex;
 }
 .footer-block-leftside {
   display: flex;
@@ -223,35 +229,42 @@ a {
 }
 
 .about-title {
-  width: 1400px;
   margin: 0 auto;
-  font-size: 32px;
+  font-size: 26px;
   text-align: center;
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div .about-title-text {
+  text-align: center;
 }
 
 .about-image {
   width: 100%;
 }
 
-.about-title {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.servises-block {
+/* .servises-block {
   display: flex;
-  width: 700px;
+  flex-wrap: wrap;
+} */
+
+.blocks h4 {
+  font-size: 18px;
+}
+.blocks h5 {
+  font-size: 16px;
 }
 
 .info-about {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 100%;
 }
 
 .blocks {
-  width: 350px;
+  /* width: 350px; */
   border: 1px solid;
   margin: 10px;
   border-radius: 10px;
@@ -271,4 +284,165 @@ a {
 
 .payment {
   display: flex;
+
+@media all and (max-width: 1260px) {
+  .footer-block-rightside-item {
+    margin: 40px 150px 0 0;
+  }
+  .footer-block-leftside {
+    margin-left: 10px;
+  }
+  .footer-block-rightside {
+    margin-right: 10px;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .footer-block-leftside-item img {
+    width: 50px;
+  }
+  .footer-block-rightside {
+    margin-left: 10px;
+  }
+  .navbar a {
+    margin-left: 10px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .navbar a {
+    margin: 0;
+  }
+  .footer-block-leftside {
+    margin: 10px;
+  }
+  .footer-block {
+    height: 200px;
+  }
+  .footer-block-leftside-item span {
+    font-size: 14px;
+  }
+  .footer-block-rightside-item a {
+    font-size: 12px;
+  }
+  .footer-block-rightside-item {
+    margin: 5px;
+  }
+  .p1 {
+    font-size: 30px;
+  }
+  .blocks h4 {
+    font-size: 14px;
+  }
+  .blocks h5 {
+    font-size: 12px;
+  }
+  .product-details-feedback h3 {
+    font-size: 16px;
+  }
+  .product-details h2 {
+    font-size: 20px;
+  }
+  .product-details li {
+    font-size: 14px;
+  }
+  .info-about h4 {
+    font-size: 16px;
+  }
+
+  .info-about h5 {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .navbar button {
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .category img {
+    width: 20px;
+  }
+  .category span {
+    font-size: 12px;
+  }
+  .filters-block {
+    height: 60px;
+  }
+  .footer-block-leftside-item img {
+    width: 30px;
+  }
+  .footer-block-leftside-item span {
+    font-size: 12px;
+  }
+  .footer-block-rightside-item a {
+    font-size: 10px;
+  }
+  .bold {
+    font-size: 12px;
+  }
+  .footer-block-rightside {
+    margin-left: 5px;
+  }
+  .guarantee h3 {
+    font-size: 16px;
+  }
+  .guarantee h5 {
+    font-size: 12px;
+  }
+  .guarantee h1 {
+    font-size: 20px;
+  }
+  .navbar button {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar svg {
+    width: 15px;
+  }
+}
+
+@media all and (max-width: 395px) {
+  .footer-block {
+    height: 250px;
+  }
+  #g {
+    display: none;
+  }
+}
+
+@media all and (max-width: 377px) {
+  .MuiButtonBase-root {
+    font-size: 10px;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .info-about h4 {
+    font-size: 15px;
+  }
+  .info-about h5 {
+    font-size: 13px;
+  }
+  .contacts h3 {
+    font-size: 17px;
+  }
+  .contacts h4 {
+    font-size: 16px;
+  }
+  .contacts h5 {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .footer-block-leftside-item {
+    display: none;
+  }
 }

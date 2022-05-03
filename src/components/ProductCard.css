@@ -11,3 +11,21 @@
 .card image {
   background-color: #f5f5f7;
 }
+
+@media all and (max-width: 480px) {
+  .card span {
+    font-size: 12px;
+  }
+  .product-card-image {
+    height: 100px;
+  }
+  .card p {
+    display: none;
+  }
+  .icons svg {
+    width: 15px;
+  }
+  .expand {
+    display: none;
+  }
+}

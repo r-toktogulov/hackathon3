@@ -57,7 +57,6 @@ const reducer = (state = initState, action) => {
 
 const ClientContext = (props) => {
   const [state, dispatch] = useReducer(reducer, initState);
-
   const getProducts = async () => {
     const response = await axios(`${API}${window.location.search}`);
     const action = {
@@ -125,7 +124,7 @@ const ClientContext = (props) => {
   const handlePagination = (page) => {
     setCurrentPage(page);
   };
-  console.log(products);
+
   const addProductToCart = (product) => {
     let cart = JSON.parse(localStorage.getItem("cart"));
 
@@ -280,6 +279,7 @@ const ClientContext = (props) => {
         cartCount: state.cartCount,
         myCart: state.myCart,
         productDetails: state.productDetails,
+        user: state.user,
         phones: state.phones,
         macbooks: state.macbooks,
         ipads: state.ipads,

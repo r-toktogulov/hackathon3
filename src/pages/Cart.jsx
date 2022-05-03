@@ -82,7 +82,7 @@ const CartPage = () => {
                   <h3>Итоговая сумма</h3>
                 </TableCell>
                 <TableCell align="center">
-                  <h2>{myCart.totalPrice} </h2>
+                  <h2>{myCart.totalPrice} $</h2>
                 </TableCell>
               </TableRow>
             </TableFooter>

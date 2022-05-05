@@ -7,7 +7,7 @@ import {
   TextField,
 } from "@mui/material";
 import React, { useContext, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { clientContext } from "../context/ClientContext";
 
 const SearchBlock = () => {
@@ -39,11 +39,13 @@ const SearchBlock = () => {
   return (
     <div className="search-block">
       <div>
-        <img
-          width={100}
-          src="https://istore.kg/static/_image/istore_logo.png"
-          alt="logo-footer"
-        />
+        <Link to="/">
+          <img
+            width={100}
+            src="https://istore.kg/static/_image/istore_logo.png"
+            alt="logo-footer"
+          />
+        </Link>
       </div>
       <div>
         <span>Магазин техники Apple в Бишкеке</span>
@@ -67,6 +69,7 @@ const SearchBlock = () => {
       <FormControl variant="standard">
         <InputLabel id="color-label"> Цвет</InputLabel>
         <Select
+          id="demo-simple-select-autowidth"
           value={colorValue}
           onChange={(e) => handleFilters("color", e.target.value)}
           label="Выберите цвет"
